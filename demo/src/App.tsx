@@ -44,6 +44,7 @@ export default function App() {
   //   );
   //   setEditingStudent(null);
   // };
+  // changes for git
 
    const handleUpdate = async (updated: Student) => {
     const res = await updateStudent(updated);
